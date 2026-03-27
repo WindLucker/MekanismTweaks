@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public abstract class MixinFormulaicAssemblicator {
 
     @Shadow
-    private int ticksRequired;
+    public int ticksRequired;
 
     @Shadow
     protected abstract void onUpdateServer();

@@ -12,8 +12,10 @@
     "MixinHomoo",
     "MixinMekanismUtils",
     "MixinPump",
+    "MixinSolarNeutronActivator",
     "MixinUpgrade",
-    "MixinUpgradeUtils"
+    "MixinUpgradeUtils",
+    "WorldAccessor"
   ],
   "client": [
   ],
